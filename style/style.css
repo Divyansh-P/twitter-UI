@@ -13,7 +13,7 @@ body {
     width: 20%;
     border-right: solid 1px #1c1c1c;
     max-width: 100px;
-    min-width: 70px;
+    
 }
 .navigation{
     color: white;
@@ -161,4 +161,21 @@ h4{
 .tweet-lists p{
     text-align: center;
     color: white;
+}
+@media screen and ( max-width:400px) {
+    .container{
+        width: 100vw;
+    }
+    .main{
+    width: 70%;
+    }
+    .navigation-container{
+     min-width: 20%;   
+    }
+   #user-search-tweets{
+       width: 60%;
+   }
+    .tweets-sidebar-container{
+        display: none;
+    }
 }
