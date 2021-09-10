@@ -18,20 +18,16 @@ border: 1px solid #1c1c1c;
 border-radius: 20px;
 display: flex;
 overflow: hidden;
-flex-wrap: wrap;
+
 justify-content: center;
-width: 300px;
+width: 360px;
 align-self: center;
 }
 
 .tweet-image{
-    background-image: url(https://images.unsplash.com/photo-1621665422246-fde75fb7e7f5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
-    background-size: contain;
-    background-position:center ;
-    background-repeat: no-repeat;
-    margin: 0;
-    width: 300px;
-    height: 300px;
+    top: 0;
+    max-width: 100%;
+    height: auto;
 }
 .tweet-text-container{
     margin: 20px 20px 0px 20px;
