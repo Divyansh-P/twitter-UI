@@ -1,6 +1,6 @@
 
 
-const URL ="https://divtwitterclone.herokuapp.com/tweets";
+const URL ="https://tbackend.onrender.com/tweets";
 let nextpageurl=null;
 /**
  * Retrive Twitter Data from API
